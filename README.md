@@ -20,3 +20,12 @@ for example
 
 <h2>Post Construct</h2>
 this annotated method is called only once after the bean is created
+
+<h2>Super(message) usage</h2>
+1. this method is present in the customException class , used to call the contructor in parent
+exception class , to set the message. 
+2. We can then retreive the error with getMessage()
+
+<h3>Exception handler</h3>
+1. Exception handler annotation inside a contorller will work only for that class
+2. 
